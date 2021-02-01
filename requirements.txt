@@ -1,0 +1,14 @@
+beautifulsoup4==4.9.3
+certifi==2020.12.5
+chardet==4.0.0
+click @ file:///home/linux1/recipes/ci/click_1610990599742/work
+Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
+idna==2.10
+itsdangerous @ file:///home/ktietz/src/ci/itsdangerous_1611932585308/work
+Jinja2 @ file:///home/linux1/recipes/ci/jinja2_1610990516718/work
+MarkupSafe==1.1.1
+requests==2.25.1
+soupsieve==2.1
+urllib3==1.26.3
+Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
+wincertstore==0.2
