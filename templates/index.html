@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Парсер - Timeweb</title>
+</head>
+<body>
+
+    <form action="{{ url_for('parse') }}" method="post">
+        <label for="url">Введите url</label>
+        <input type="text" name="url" id="url" />
+        <label>(к примеру www.google.com)</label>
+        <br>
+        <label for="inner_level">Введите необходимый уровень вложенности:</label>
+        <input type="text" name="inner_level" id="inner_level">
+        <label> (1 или больше)</label>
+        <br>
+        <input type="submit" value="Сделать POST запрос для начала парсинга!" />
+    </form>
+
+</body>
+</html>
